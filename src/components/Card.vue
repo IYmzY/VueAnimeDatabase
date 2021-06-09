@@ -1,7 +1,7 @@
 <template>
   <div class="card">
     <a href="#" target="_blank">
-      <img src="https://place-hold.it/150x250" alt="Anime Poster Image" />
+      <img :src="anime.image_url" alt="Anime Image" />
       <h3>{{ anime.title }}</h3>
     </a>
   </div>
